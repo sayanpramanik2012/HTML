@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<style>
+table,th,td{
+	border:1px solid black;
+	border-collapse:collapse;
+}
+th,td{
+	padding:12px;
+	text-align:center;
+}
+table#t10{
+	width:100%;
+	background-color:blue;
+}
+</style>
+<html>
+<head>
+  <title>Registation form</title>
+</head>
+<body>
+  <h2> Registration form</h2>
+<form>
+  <fieldset>
+  	<legend>personal info</legend>
+  <h4>ENTER NAME</h4>
+    first name:<br>
+	<input type="text" name="firstname" value="Sayan"><br>
+	last name:<br>
+	<input type="text" name="lastname"><br>
+	<h4>GENDER SELECTION</h4>
+  <input type="radio" name="gender" value="male" checked>MALE<br>
+  <input type="radio" name="gender" value="female">FEMALE<br>
+    <h4>SUBMIT BUTTON</h4>
+	<input type="submit" value="SUBMIT HERE🤷‍♂️🤷‍♂️">😎😎<br>
+	<h4>SCROLL BOX</h4>
+	<select name="car" size="3" dropdown>
+	  <option value="volvo">volve</option>
+	  <option value="audi">audi</option>
+	  <option value="lamborgini">lamborgini</option>
+	  <option value="alto">alto</option>
+	  <option value="honda">honda</option>
+	</select>
+	<br>
+	<h4>SCROLL BOX</h4>
+	<select name="car" size="1" dropdown>
+	  <option value="volvo">volve</option>
+	  <option value="audi">audi</option>
+	  <option value="lamborgini">lamborgini</option>
+	  <option value="alto">alto</option>
+	  <option value="honda">honda</option>
+	</select>
+	<br>
+    <h4>ADDRESS BOX</h4>
+	ADDRESS
+	<textarea name="address" row="10" cols="20">
+	</textarea>
+	<h4>COLOUR PICKER</h4>
+	<br>
+	Select your favourate color:
+	<input type="color" name="favcolor" value="#ff0000">
+	<input type="submit">
+	<br>
+	<h4>BIRTHDAY</h4>
+	<input type="date" name="bday">
+	<br>
+	<h4>SELECT FILE</h4>
+	<input type="file" name="myfile">
+	<br>
+	<h4>CHECKBOX</h4>
+	<input type="checkbox" name ="vehicle1">I have a bike<br>
+	<input type="checkbox" name ="vehicle2">I have a car<br>
+	<input type="checkbox" name ="vehicle3">I have a truck<br>
+	<input type="checkbox" name ="vehicle4">I have a bus<br>
+	<h4>PASSWORD</h4>
+	<input type="password" name="psw">
+	<br>
+</fieldset>
+    <h4>RESET</h4>
+    <input type="reset">
+    <br>
+</form>
+<table id="t10" style="width:20%">
+	<tr>
+		<th>firstname</th>
+		<th>lastname</th>
+		<th>age</th>
+	</tr>
+	<tr>
+		<td>sayan</td>
+		<td>pramanik</td>
+		<td>19</td>
+	</tr>
+	<tr>
+		<td>makesh</td>
+		<td>gughan</td>
+		<td>18</td>
+	</tr>
+</table>
+</body>
+</html>

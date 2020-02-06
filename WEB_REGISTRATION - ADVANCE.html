@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<style>
+table,th,td{
+  border: 1px solid black;
+  border-collapse:collapse;
+}
+th,td{
+	padding: 12px;
+	text-align:center;
+}
+table#t01{
+	width:100%;
+	background-color:blue;
+
+}
+</style>
+
+
+<html>
+<head>
+	<title>nikhita</title>
+</head>
+<body>
+<h2>Registration form</h2>
+<form>  <!--starting tag--> 
+	<fieldset>
+	<legend>personal info</legend>
+	<br>
+	<h4>text box</h4>	
+	first name:<br>
+	<input type="text" name="firstname" value="mickey"><br>
+	last name:<br>
+	<input type="text" name="lastname"><br>
+	<h4>Radio Button</h4>
+	<input type="radio" name="gender" value="male" >male<br>
+   	<input type="radio" name="gender" value="female" checked>female<br>
+    <input type="submit" value="submit your name">
+    <br>
+    <h4>Scroll box</h4>
+    <select name="cars" size="2" multiple>
+    	<option value="volvo">volve</option>
+    	<option value="saab" selected >saab</option>
+    	<option value="audi">audi </option>
+    </select>
+    <br>
+    <h4>text box</h4>
+    Address
+
+    <textarea name="address" row="10" cols="20">
+    </textarea>
+    <h4>Alert message for a button</h4>
+    <button type="button" onclick="alert('it is submitted')">click me</button>
+    <br>
+    <h4>Drop down list</h4>
+    <h2>which browser do you like?</h2>
+    <input list="browsers">
+    <datalist id="browsers">
+    	<option value="internet explorer">
+    	<option value="firefox">
+    	<option value="google">
+    </datalist>
+    <br>
+    <h4>Password box</h4>
+    Password
+    <input type="password" name="psw">
+    Submit Button
+    <input type="submit" value="submit">
+    <br>
+    <h4>Reset Button</h4>
+    Reset button
+    <input type="text" name="firstname" value="mickey">
+    <input type="reset">
+    <br>
+    <h4>Check box</h4>
+     <br>
+     <input type="checkbox" name="vehicle1">I have a car<br>
+     <input type="checkbox" name="vehicle2">i have a bike<br>
+
+     <h4>Colour Picker</h4>
+     <br>
+     select your favourite color:
+     <input type="color" name="favcolor" value="#ff0000">
+     <input type="submit">
+     <br>
+     <h4>birthday</h4>
+     <input type="date" name="bday">
+     <br>
+     <h4>e-mail</h4>
+     <input type="email" name="email">
+     <br>
+     <h4>select a file:</h4>
+     <input type="file" name="myfile">
+     <br>
+	 <input type="month" name="bdaymonth">
+     <br>
+     <input type="number" name="points" min="0" max="100" step="10" >
+     <br>
+     <h4>telephone:</h4>
+     <input type="tel" name="phone">
+     <br>
+     <h4>select a time:</h4>
+     <br>
+     <input type="time" name="time">
+     <h4>select a week:</h4>
+     <input type="week" name="week">
+     <br>
+    </fieldset>
+</form>
+  <!--starting tag-->
+<table style="width:10%">
+	<tr>
+		<th>firstname</th>
+		<th>lastname</th>
+		<th>age</th>
+	</tr>
+	<tr>
+		<td>jill</td>
+		<td>smith</td>
+		<td>60</td>
+	</tr>
+	<tr>
+		<td>bill</td>
+		<td>gates</td>
+		<td>50</td>
+	</tr>
+
+	<table id="t01" style="width:30%">;
+	    <th>firstname</th>
+		
+		<th>lastname</th>
+		<th>age</th>
+	</tr>
+	<tr>
+		<td>jill</td>
+		<td>smith</td>
+		<td>60</td>
+	</tr>
+	<tr>
+		<td>bill</td>
+		<td>gates</td>
+		<td>50</td>
+	</tr>
+
+</body>
+</html>
